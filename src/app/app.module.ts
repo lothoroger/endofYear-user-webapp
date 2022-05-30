@@ -21,6 +21,7 @@ import { DataService } from './services/data.service';
 import { RegisterComponent } from './components/auth/register/register.component';
 import { LoginComponent } from './components/auth/login/login.component';
 import { ChangePasswordComponent } from './components/auth/change-password/change-password.component';
+
 @NgModule({
   declarations: [
     AppComponent,
