@@ -16,7 +16,7 @@ export class OrdersComponent implements OnInit {
   ) { }
 
   ngOnInit(): void {
-    this.orderObservable = this.httpClient.get<any[]>("../../../assets/ordersjson.json");
+    this.orderObservable = this.httpClient.get<any[]>("../../assets/ordersjson.json");
     console.log('Observalbles', this.orderObservable);
   }
 

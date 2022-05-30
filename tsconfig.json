@@ -3,7 +3,11 @@
   "compileOnSave": false,
   "compilerOptions": {
     "baseUrl": ".",
+<<<<<<< HEAD
     "outDir": "./dist/out-tsc",
+=======
+    "outDir": "dist/user-webapp",
+>>>>>>> baa8e842e1be68e679945af5c2dbf309d11d7cdd
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "noImplicitOverride": true,

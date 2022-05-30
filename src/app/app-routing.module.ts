@@ -11,6 +11,7 @@ import { UserProfileComponent } from './components/user-profile/user-profile.com
 import { RegisterComponent } from './components/auth/register/register.component'
 import { LoginComponent } from './components/auth/login/login.component'
 import { ChangePasswordComponent } from './components/auth/change-password/change-password.component'
+
 const routes: Routes = [
   { path: "", redirectTo: "/products", pathMatch: "full" },
   { path: "login", component: LoginComponent },
